@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanskar Jain | Full Stack & Backend Engineer</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta
+      name="description"
+      content="Single-page portfolio of Sanskar Jain featuring backend engineering, full stack development, live deployments, skills, projects, and freelance availability."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="site-header">
+      <div class="container nav-shell" id="nav-shell">
+        <a class="brand" href="#home">
+          <span class="brand-mark">SJ</span>
+          <span>Sanskar Jain</span>
+        </a>
+
+        <nav class="nav-links" id="site-menu" aria-label="Primary">
+          <a href="#home" data-nav-link="home">Home</a>
+          <a href="#about" data-nav-link="about">About</a>
+          <a href="#experience" data-nav-link="experience">Experience</a>
+          <a href="#skills" data-nav-link="skills">Skills</a>
+          <a href="#projects" data-nav-link="projects">Projects</a>
+          <a href="#contact" data-nav-link="contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-button theme-toggle" type="button" data-role="theme-toggle" aria-label="Toggle theme">
+            <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M21 15.2A9 9 0 0 1 8.8 3 9.2 9.2 0 1 0 21 15.2Z"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.8"
+              />
+            </svg>
+            <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8" />
+              <path
+                d="M12 2.5v2.2M12 19.3v2.2M4.7 4.7l1.6 1.6M17.7 17.7l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.7 19.3l1.6-1.6M17.7 6.3l1.6-1.6"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="1.8"
+              />
+            </svg>
+          </button>
+
+          <button
+            class="icon-button menu-toggle"
+            type="button"
+            id="menu-toggle"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+            aria-controls="site-menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section hero-section" id="home" data-section="home">
+        <div class="container hero-grid">
+          <div class="panel hero-copy" data-reveal>
+            <p class="eyebrow">Software Engineer Portfolio</p>
+            <h1>Full stack builds, backend APIs, and production-ready execution.</h1>
+            <p class="hero-lead">
+              I am Sanskar Jain, a Computer Science Engineer focused on modern web products, scalable
+              backend systems, deployment workflows, and reliable shipping speed.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="primary-button"
+                href="https://wa.me/?text=Hi%20Sanskar%2C%20I%20want%20to%20discuss%20a%20project%20with%20you."
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M20.5 11.8A8.5 8.5 0 0 1 8.2 19.4L3 21l1.7-5A8.5 8.5 0 1 1 20.5 11.8Z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                  />
+                  <path
+                    d="M8.6 9.2c.2-.5.4-.5.7-.5h.6c.2 0 .4.1.5.4l.9 2c.1.2.1.4 0 .6l-.4.6c-.1.2-.1.4 0 .5.4.7 1 1.3 1.7 1.8.2.1.4.1.6 0l.6-.4c.2-.1.4-.1.6 0l1.9.9c.3.1.4.3.4.5v.6c0 .3-.1.5-.5.7-.6.3-1.3.3-1.9.1-3.2-.9-5.8-3.6-6.7-6.8-.2-.6-.2-1.3 0-2Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span>Hire me</span>
+              </a>
+
+              <a class="secondary-button" href="#projects">Explore projects</a>
+            </div>
+
+            <div class="hero-notes">
+              <div class="mini-info">
+                <strong>B.Tech CSE</strong>
+                <span>TMU · 2026 · CGPA 8.0</span>
+              </div>
+              <div class="mini-info">
+                <strong>Open for jobs + freelance</strong>
+                <span>Backend, full stack, deployment, and maintenance work</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="panel hero-side" data-reveal>
+            <p class="eyebrow">Current Positioning</p>
+            <h2>Full Stack Developer / Backend Developer / SDE-1</h2>
+            <p class="side-copy">
+              Internship, freelance delivery, production deployment experience, and strong CS
+              fundamentals together make this profile ready for both product builds and backend-heavy
+              ownership.
+            </p>
+
+            <div class="stats-grid">
+              <div class="stat-item">
+                <strong>2026</strong>
+                <span>Graduation Year</span>
+              </div>
+              <div class="stat-item">
+                <strong>8.0</strong>
+                <span>CGPA</span>
+              </div>
+              <div class="stat-item">
+                <strong>3+</strong>
+                <span>Live Builds</span>
+              </div>
+              <div class="stat-item">
+                <strong>1st</strong>
+                <span>SIH Internal Rank</span>
+              </div>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://www.linkedin.com/in/sanskarjain31/" target="_blank" rel="noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M6.9 8.2A1.6 1.6 0 1 1 6.9 5a1.6 1.6 0 0 1 0 3.2ZM5.5 9.7h2.8V19H5.5V9.7Zm4.6 0h2.7V11h.1c.4-.7 1.4-1.6 2.9-1.6 3.1 0 3.7 2 3.7 4.7V19h-2.8v-4.3c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2V19h-2.8V9.7Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/sans-byte" target="_blank" rel="noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 2.4a9.6 9.6 0 0 0-3 18.7c.5.1.7-.2.7-.5v-1.8c-3 .6-3.6-1.2-3.6-1.2-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1 1.8-.6 2.2-1 .1-.7.4-1.2.7-1.5-2.4-.3-5-1.2-5-5.2 0-1.1.4-2.1 1.1-2.8-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1a10.3 10.3 0 0 1 5.4 0c2-1.4 2.9-1.1 2.9-1.1.6 1.5.2 2.6.1 2.9.7.7 1.1 1.7 1.1 2.8 0 4-2.6 4.9-5 5.2.4.3.8 1 .8 2v2.9c0 .3.2.6.7.5A9.6 9.6 0 0 0 12 2.4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about" data-section="about">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">About</p>
+            <h2>Practical engineering mindset with strong computer science grounding</h2>
+            <p>
+              I have worked on e-commerce platforms, backend systems, deployments, content updates,
+              APIs, database operations, and performance improvements. Alongside real project work, I
+              also built experimental systems like a custom DSL and an ANPR prototype using Python and
+              OpenCV.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <article class="panel about-story" data-reveal>
+              <h3>Why this profile stands out</h3>
+              <p>
+                This is not only an academic profile. It combines full stack delivery, backend logic,
+                live hosting, Cloudflare handling, VPS deployment, and real client/project execution.
+                That mix makes me comfortable both with writing code and with taking ownership after
+                the code is shipped.
+              </p>
+              <ul class="detail-list">
+                <li>Full stack work across production commerce platforms.</li>
+                <li>Backend APIs, schema design, optimization, and deployment flow exposure.</li>
+                <li>Freelance experience with delivery, communication, and production release.</li>
+              </ul>
+            </article>
+
+            <article class="panel about-card" data-reveal>
+              <h3>Education</h3>
+              <p>Teerthanker Mahaveer University</p>
+              <p>B.Tech in Computer Science &amp; Engineering (AIMLDL)</p>
+              <p>Graduation: 2026</p>
+            </article>
+
+            <article class="panel about-card" data-reveal>
+              <h3>Achievement</h3>
+              <p>First Rank - Smart India Hackathon 2024 (Internal Round)</p>
+              <p>Proof of teamwork, pressure handling, and practical problem solving.</p>
+            </article>
+
+            <article class="panel about-card" data-reveal>
+              <h3>Career Objective</h3>
+              <p>
+                Build impactful products as a Backend Developer, Full Stack Developer, or SDE-1 while
+                continuously growing in system design, architecture, and cloud engineering.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience" data-section="experience">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Experience</p>
+            <h2>Hands-on work across product, backend, client delivery, and maintenance</h2>
+          </div>
+
+          <div class="experience-grid">
+            <article class="panel experience-card" data-reveal>
+              <div class="card-topline">
+                <span class="card-label">April 2026 - May 2026</span>
+                <span class="status-tag">Production</span>
+              </div>
+              <h3>Full Stack Developer · Aahaarya</h3>
+              <p>
+                Worked on a live e-commerce platform involving frontend polish, backend integration,
+                content workflows, PWA support, hosting, deployment, and maintenance.
+              </p>
+              <ul class="detail-list">
+                <li>Improved responsiveness and user flow on a live platform.</li>
+                <li>Managed deployment and production maintenance tasks.</li>
+                <li>Worked across React.js, Next.js, databases, Cloudflare, and VPS setup.</li>
+              </ul>
+            </article>
+
+            <article class="panel experience-card" data-reveal>
+              <div class="card-topline">
+                <span class="card-label">October 2025 - March 2026</span>
+                <span class="status-tag">Backend</span>
+              </div>
+              <h3>Backend Developer Intern · UNIO</h3>
+              <p>
+                Focused on database design, REST APIs, backend business logic, optimization, and
+                cleaner production-oriented engineering practices.
+              </p>
+              <ul class="detail-list">
+                <li>Designed schema structures and API contracts.</li>
+                <li>Implemented business logic and backend optimization flows.</li>
+                <li>Contributed to scalable architecture discussions.</li>
+              </ul>
+            </article>
+
+            <article class="panel experience-card" data-reveal>
+              <div class="card-topline">
+                <span class="card-label">December 2025</span>
+                <span class="status-tag">Freelance</span>
+              </div>
+              <h3>Freelance Full Stack Developer · MaryadaSamooh</h3>
+              <p>
+                Delivered a responsive e-commerce build with API integration, better frontend-backend
+                coordination, performance cleanup, and live deployment support.
+              </p>
+              <ul class="detail-list">
+                <li>Handled client-facing delivery and requirement understanding.</li>
+                <li>Improved performance and communication between app layers.</li>
+                <li>Supported deployment and production delivery tasks.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills" data-section="skills">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Skills</p>
+            <h2>Main stack, engineering strengths, and tools I use most</h2>
+            <p>
+              Instead of repeating everything, this section highlights the tools and areas where I can
+              contribute fastest in real work.
+            </p>
+          </div>
+
+          <div class="skills-showcase">
+            <article class="panel logos-panel" data-reveal>
+              <h3>Main Tech Stack</h3>
+              <div class="logo-grid">
+                <div class="logo-tile">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++ logo" loading="lazy" />
+                  <span>C++</span>
+                </div>
+                <div class="logo-tile">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript logo" loading="lazy" />
+                  <span>JavaScript</span>
+                </div>
+                <div class="logo-tile">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React logo" loading="lazy" />
+                  <span>React</span>
+                </div>
+                <div class="logo-tile">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js logo" loading="lazy" />
+                  <span>Next.js</span>
+                </div>
+                <div class="logo-tile">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB logo" loading="lazy" />
+                  <span>MongoDB</span>
+                </div>
+                <div class="logo-tile">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL logo" loading="lazy" />
+                  <span>MySQL</span>
+                </div>
+                <div class="logo-tile">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg" alt="Cloudflare logo" loading="lazy" />
+                  <span>Cloudflare</span>
+                </div>
+                <div class="logo-tile">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git logo" loading="lazy" />
+                  <span>Git</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="panel skill-summary" data-reveal>
+              <h3>Where I can help quickly</h3>
+              <p>
+                Backend APIs, full stack product work, deployment fixes, performance cleanup, content
+                updates, database-backed features, and shipping production-ready experiences.
+              </p>
+              <div class="summary-points">
+                <div>
+                  <strong>Frontend</strong>
+                  <span>HTML, CSS, JavaScript, jQuery, Bootstrap, React.js, Next.js</span>
+                </div>
+                <div>
+                  <strong>Backend</strong>
+                  <span>REST APIs, authentication, authorization, business logic, database integration</span>
+                </div>
+                <div>
+                  <strong>Deployment</strong>
+                  <span>VPS hosting, Cloudflare, DNS, SSL, production updates, maintenance</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="skills-detail-grid">
+            <article class="panel compact-card" data-reveal>
+              <h3>Computer Science Base</h3>
+              <p>
+                DSA, OOPs, DBMS, OS, CN, time complexity, and system-level reasoning that supports
+                practical software work.
+              </p>
+            </article>
+
+            <article class="panel compact-card" data-reveal>
+              <h3>Databases &amp; Storage</h3>
+              <p>
+                MySQL, MongoDB, Redis, relational design, normalization, indexing, transactions, and
+                query optimization basics.
+              </p>
+            </article>
+
+            <article class="panel compact-card" data-reveal>
+              <h3>Tools &amp; Workflow</h3>
+              <p>
+                Git, GitHub, Postman, VS Code, Chrome DevTools, debugging, iterative testing, and
+                deployment-oriented thinking.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects" data-section="projects">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Projects</p>
+            <h2>Selected live work and one clean portfolio build</h2>
+            <p>
+              Keeping this section focused: three featured builds with clearer content, better spacing,
+              and direct actions.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="panel project-card" data-reveal>
+              <div class="card-topline">
+                <span class="card-label">Live E-Commerce</span>
+                <span class="status-tag">Aahaarya</span>
+              </div>
+              <h3>Aahaarya Website</h3>
+              <p>
+                Production commerce platform with frontend improvements, backend connectivity, content
+                workflows, deployment handling, and ongoing maintenance experience.
+              </p>
+              <ul class="detail-list">
+                <li>Responsive UI polish and smoother user flow.</li>
+                <li>PWA-minded implementation and deployment support.</li>
+                <li>Content updates, hosting flow, and platform maintenance.</li>
+              </ul>
+              <div class="project-actions">
+                <a class="primary-button small-button" href="https://aahaarya.in/en/" target="_blank" rel="noreferrer">
+                  Visit live site
+                </a>
+                <a class="secondary-button small-button" href="#experience">View role</a>
+              </div>
+            </article>
+
+            <article class="panel project-card" data-reveal>
+              <div class="card-topline">
+                <span class="card-label">Client Delivery</span>
+                <span class="status-tag">MaryadaSamooh</span>
+              </div>
+              <h3>MaryadaSamooh Commerce Build</h3>
+              <p>
+                Freelance full stack e-commerce build focused on performance, integration work,
+                usability, and real production delivery for a client-facing brand.
+              </p>
+              <ul class="detail-list">
+                <li>Frontend and backend communication improvements.</li>
+                <li>Third-party integration and performance cleanup.</li>
+                <li>Production release support for a live store.</li>
+              </ul>
+              <div class="project-actions">
+                <a class="primary-button small-button" href="https://maryadasamooh.in/" target="_blank" rel="noreferrer">
+                  Visit live site
+                </a>
+                <a class="secondary-button small-button" href="#contact">Book similar work</a>
+              </div>
+            </article>
+
+            <article class="panel project-card" data-reveal>
+              <div class="card-topline">
+                <span class="card-label">Portfolio Build</span>
+                <span class="status-tag">Current</span>
+              </div>
+              <h3>This Portfolio Website</h3>
+              <p>
+                A single-page portfolio focused on cleaner spacing, mobile navigation, active section
+                links, theme switching, and stronger freelance-oriented positioning.
+              </p>
+              <ul class="detail-list">
+                <li>Single-page architecture with active nav highlighting.</li>
+                <li>Responsive hero, skills, projects, and contact sections.</li>
+                <li>Cleaner CTA structure for hiring and freelance outreach.</li>
+              </ul>
+              <div class="project-actions">
+                <a class="primary-button small-button" href="#home">View section</a>
+                <a class="secondary-button small-button" href="https://github.com/sans-byte" target="_blank" rel="noreferrer">
+                  GitHub profile
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <article class="panel portfolio-highlight" data-reveal>
+            <div>
+              <p class="eyebrow">More Engineering Work</p>
+              <h3>Anonymous community platform, custom DSL, and ANPR prototype</h3>
+              <p>
+                Beyond the featured live sites, I have also worked on a community-driven platform,
+                experimented with domain-specific language design, and built an Automatic Number Plate
+                Recognition prototype using Python and OpenCV.
+              </p>
+            </div>
+            <a class="secondary-button highlight-button" href="https://github.com/sanskarjain09?tab=repositories" target="_blank" rel="noreferrer">See details on GitHub</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact" data-section="contact">
+        <div class="container">
+          <div class="panel contact-shell" data-reveal>
+            <div class="contact-copy">
+              <p class="eyebrow">Contact</p>
+              <h2>Available for full-time roles and freelance work that needs actual execution</h2>
+              <p>
+                I also take freelance work for landing pages, e-commerce builds, frontend cleanups,
+                backend APIs, database-connected features, deployment help, content updates, and
+                ongoing maintenance. If the work already exists and just needs to be fixed, polished,
+                or shipped properly, I can help there too.
+              </p>
+
+              <div class="freelance-grid">
+                <div>
+                  <strong>E-commerce support</strong>
+                  <span>Storefront polish, product flow, content updates, and deployment fixes.</span>
+                </div>
+                <div>
+                  <strong>Backend work</strong>
+                  <span>REST APIs, business logic, auth flows, database integration, optimization.</span>
+                </div>
+                <div>
+                  <strong>Website maintenance</strong>
+                  <span>Cloudflare, VPS, DNS, SSL, monitoring, issue cleanup, updates.</span>
+                </div>
+                <div>
+                  <strong>Fast collaboration</strong>
+                  <span>Requirement understanding, delivery discipline, and practical communication.</span>
+                </div>
+              </div>
+
+              <div class="hero-actions contact-cta">
+                <a
+                  class="primary-button"
+                  href="https://wa.me/916263584176/?text=Hi%20Sanskar%2C%20I%20want%20to%20discuss%20a%20project%20with%20you."
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M20.5 11.8A8.5 8.5 0 0 1 8.2 19.4L3 21l1.7-5A8.5 8.5 0 1 1 20.5 11.8Z"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.8"
+                    />
+                    <path
+                      d="M8.6 9.2c.2-.5.4-.5.7-.5h.6c.2 0 .4.1.5.4l.9 2c.1.2.1.4 0 .6l-.4.6c-.1.2-.1.4 0 .5.4.7 1 1.3 1.7 1.8.2.1.4.1.6 0l.6-.4c.2-.1.4-.1.6 0l1.9.9c.3.1.4.3.4.5v.6c0 .3-.1.5-.5.7-.6.3-1.3.3-1.9.1-3.2-.9-5.8-3.6-6.7-6.8-.2-.6-.2-1.3 0-2Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span>Start a project</span>
+                </a>
+                <a class="secondary-button" href="#projects">See live work</a>
+              </div>
+            </div>
+
+            <div class="contact-methods">
+              <a
+                class="contact-method"
+                href="https://wa.me/916263584176/?text=Hi%20Sanskar%2C%20I%20want%20to%20discuss%20a%20project%20with%20you."
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M20.5 11.8A8.5 8.5 0 0 1 8.2 19.4L3 21l1.7-5A8.5 8.5 0 1 1 20.5 11.8Z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                  />
+                  <path
+                    d="M8.6 9.2c.2-.5.4-.5.7-.5h.6c.2 0 .4.1.5.4l.9 2c.1.2.1.4 0 .6l-.4.6c-.1.2-.1.4 0 .5.4.7 1 1.3 1.7 1.8.2.1.4.1.6 0l.6-.4c.2-.1.4-.1.6 0l1.9.9c.3.1.4.3.4.5v.6c0 .3-.1.5-.5.7-.6.3-1.3.3-1.9.1-3.2-.9-5.8-3.6-6.7-6.8-.2-.6-.2-1.3 0-2Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <span>Fastest way to discuss freelance work or hiring.</span>
+                </div>
+              </a>
+
+              <a class="contact-method" href="https://www.linkedin.com/in/sanskarjain009/" target="_blank" rel="noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M6.9 8.2A1.6 1.6 0 1 1 6.9 5a1.6 1.6 0 0 1 0 3.2ZM5.5 9.7h2.8V19H5.5V9.7Zm4.6 0h2.7V11h.1c.4-.7 1.4-1.6 2.9-1.6 3.1 0 3.7 2 3.7 4.7V19h-2.8v-4.3c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2V19h-2.8V9.7Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <div>
+                  <strong>LinkedIn</strong>
+                  <span>Professional profile, updates, and career background.</span>
+                </div>
+              </a>
+
+              <a class="contact-method" href="https://github.com/sanskarjain09" target="_blank" rel="noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 2.4a9.6 9.6 0 0 0-3 18.7c.5.1.7-.2.7-.5v-1.8c-3 .6-3.6-1.2-3.6-1.2-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1 1.8-.6 2.2-1 .1-.7.4-1.2.7-1.5-2.4-.3-5-1.2-5-5.2 0-1.1.4-2.1 1.1-2.8-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1a10.3 10.3 0 0 1 5.4 0c2-1.4 2.9-1.1 2.9-1.1.6 1.5.2 2.6.1 2.9.7.7 1.1 1.7 1.1 2.8 0 4-2.6 4.9-5 5.2.4.3.8 1 .8 2v2.9c0 .3.2.6.7.5A9.6 9.6 0 0 0 12 2.4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <div>
+                  <strong>GitHub</strong>
+                  <span>Code profile, experiments, and engineering activity.</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <p>Designed for Sanskar Jain.</p>
+        <p>&copy; <span id="footer-year"></span> All rights reserved.</p>
+      </div>
+    </footer>
+
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/?text=Hi%20Sanskar%2C%20I%20want%20to%20discuss%20a%20project%20with%20you."
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Hire me on WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M20.5 11.8A8.5 8.5 0 0 1 8.2 19.4L3 21l1.7-5A8.5 8.5 0 1 1 20.5 11.8Z"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.8"
+        />
+        <path
+          d="M8.6 9.2c.2-.5.4-.5.7-.5h.6c.2 0 .4.1.5.4l.9 2c.1.2.1.4 0 .6l-.4.6c-.1.2-.1.4 0 .5.4.7 1 1.3 1.7 1.8.2.1.4.1.6 0l.6-.4c.2-.1.4-.1.6 0l1.9.9c.3.1.4.3.4.5v.6c0 .3-.1.5-.5.7-.6.3-1.3.3-1.9.1-3.2-.9-5.8-3.6-6.7-6.8-.2-.6-.2-1.3 0-2Z"
+          fill="currentColor"
+        />
+      </svg>
+      <span>Hire me</span>
+    </a>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
